@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: vendas-cliente-service
+  cloud:
+    config:
+      uri: http://localhost:9090
+
+  security:
+    user:
+      name: admin
+      password: 1234
+
